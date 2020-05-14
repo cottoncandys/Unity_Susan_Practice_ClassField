@@ -10,10 +10,11 @@ public class EnemyManager : MonoBehaviour
 
     private void Start()
     {
+        //取得欄位
         print("怪物1號的魔力:" + monster1.magic);
-        print("怪物二號的裝備名稱:" + monster2.equipment);
+        print("怪物2號的裝備名稱:" + monster2.equipment);
 
-
+        //設定欄位
         monster1.blood = 100;
         monster2.blood = 300;
         monster1.defense = 50;
